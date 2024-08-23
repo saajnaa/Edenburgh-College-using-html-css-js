@@ -43,7 +43,7 @@ body {
 /* styling slidepara that is marqueee tag on top */
 .notice {
     width: 100%;
-    margin-top: 5px;
+    margin-top: 57px;
     padding: 4px;
      
 }
@@ -85,7 +85,7 @@ body {
 
 #slidepara {
     font-family: devnagri;
-    margin-top: 1px;
+    margin-top: -10px;
     font-size: 18px;
     font-weight: 200px;
 }
