@@ -1,0 +1,115 @@
+
+
+
+@media screen and (max-width:768px)  {
+    
+
+    .footer-list{
+
+        margin: 10px auto;
+
+    }
+
+
+}
+
+
+@media screen and (max-width:970px)  {
+
+
+    .courses-list {
+        margin-bottom: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 10px;
+        padding-bottom: 20px;
+        /* padding-left: 50px;
+        padding-right: 50px; */
+        
+        margin: 10px auto;
+    }
+ 
+ .bbs {
+        width: 310px;
+        height: auto;
+        margin: 10px auto !important;
+        margin-top: 10px;
+        border-radius: 8px;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        
+    }
+    
+
+    .b-ed {
+
+        width: 310px;
+        height: auto;
+        border-radius: 8px;
+        margin: 10px auto !important;
+        margin-top: 10px;
+        font-size: 18px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1000px)  {
+
+
+    .facebook-page {
+
+
+        width: 320px;
+        margin-top: 20px;
+        margin: 10px auto !important;
+        border-radius: 3px;
+    
+    }
+
+
+    .map-page {
+
+        width: 502px;
+        height: 372px;
+        margin-top: 20px;
+        margin: 10px auto !important;
+        border-radius: 4px;
+        border: none !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:550px)  {
+
+
+
+    .map-page {
+
+        
+        width: 302px !important;
+        height: 300px !important;
+        margin-top: 20px;
+        margin: 10px auto !important;
+        border-radius: 4px;
+        border: none !important;
+    }
+
+
+    .map-page iframe {
+
+        width: 302px !important;
+        height: 300px !important;
+        margin: 10px auto !important;
+
+
+    }
+
+
+
+
+}

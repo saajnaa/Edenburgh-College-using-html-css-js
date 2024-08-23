@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Edenburgh College</title>
+
+  <!-- vanilaa css -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- css responsiveness -->
+  <link rel="stylesheet" href="responsive.css">
+
+  <!-- Bootstrap css -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css
+     ">
+
+
+  <!-- social link -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+  <!-- Add icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+</head>
+
+<body onload="updateClock();">
+
+  <!-- navigation bar using bootstrap -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Edenburgh College</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Academics
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">BBS [Bachelor Of Business Studies]</a></li>
+              <li><a class="dropdown-item" href="#">B.Ed [Bachelor Of Education]</a></li>
+              <li><a class="dropdown-item" href="#">About Us</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" id="pre-admission" href="#">Pre-Admission</a></li>
+            </ul>
+          </li>
+
+
+          <li class="nav-item">
+            <a class="nav-link abc" id="abc">Scholarship Program</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq-section">FAQ</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact-section-form">Contact Us</a>
+          </li>
+
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- slide paragraph layout -->
+  <div class="quick-info">
+    <div class="notice">
+      <h3>Notice</h3>
+      <p id="DATE_IN_NEPALI"></p>
+    </div>
+    <marquee id="slidepara" behavior="" direction="left">
+      आज देखि भैबा परिक्षा भएकोले सबै विद्यार्थीहरु ६:३० सम्म कलेज आइ सक्नु पर्छ !
+    </marquee>
+  </div>
+
+
+  <!-- hero section using bootstrap -->
+  <div id="carouselExampleDark" class="carousel carousel-dark slide ms-4 me-4 mt-3">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="/img/1.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="/img/20.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Second slide label</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/img/15.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Courses Section Layout -->
+
+  <div class="courses-section">
+    <h1 id="our-courses">Our Programs(Courses)</h1>
+
+    <div class="courses-list">
+
+      <div class="bbs">
+        <div class="bbs-img"></div>
+        <h3>BBS</h3>
+        <P>Bachelor Of Business Studies </P>
+        <a class="bbs-btn" href="">Apply Now &gt &gt</a>
+        <p class="bbs-para">The BBS Program, lasting four years, provides comprehensive business
+          and management
+          training. It prepare students for
+          roles in both private
+          and public sectors. <a class="learn-more" href="/courses/bbs.html">Learn More</a></p>
+      </div>
+
+
+      <div class="b-ed">
+        <div class="bbs-img"></div>
+        <h3>B.Ed
+        </h3>
+        <P> Bachelor of Education</P>
+        <a class="b-ed-btn" href="">Apply Now &gt &gt</a>
+        <p class="b-ed-para">The B.Ed program in Nepal aims to develop skilled educators for various educational levels,
+          from primary to
+          secondary schooling. <a class="learn-more" href="/courses/b-ed.html"> Learn More</a> </p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- FAQ-section -->
+  <div class="faq-section" id="faq-section">
+    <h1>Frequently Asked Questions ! </h1>
+
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Accordion Item #1
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the first item's accordion body.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            Accordion Item #2
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+            filled with some actual content.
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+            data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Accordion Item #3
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+            happening here in terms of content, but just filling up the space to make it look, at least at first glance,
+            a bit more representative of how this would look in a real-world application.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- get in touch section -->
+
+  <div class="contact-section" id="contact-section">
+    <p class="contact-p">Get in Touch</p>
+    <hr class="social-hr">
+    <div class="contact-list">
+      <div class="facebook-page">
+        <p>Facebook Page</p>
+        <iframe
+          src="https://www.facebook.com/plugins/page.php? 
+         href=https%3A%2F%2Fwww.facebook.com%2FEdenburghCollegeBRT&tabs=timeline&width=300&height=340&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=false&appId"
+          width="300" height="340" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+      </div>
+      <div class="map-page">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3572.1868400961457!2d87.27473310864131!3d26.449705679742866!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ef750b23264835%3A0xd9b3f4c2e8c3b28f!2sEdenburgh%20college%2C%20Biratnagar-11%2C%20B.B.S%26B.E.D!5e0!3m2!1sen!2snp!4v1722959200722!5m2!1sen!2snp"
+          width="498" height="368" style="border:4;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- contact form -->
+
+  <div class="contact-section-form" id="contact-section-form">
+    <div class="container">
+      <div class="content">
+        <div class="left-side">
+          <div class="address details">
+            <i class="fas fa-map-marker-alt"></i>
+            <div class="topic">Address</div>
+            <div class="text-one">Morang</div>
+            <div class="text-two">Biratnagar-9</div>
+          </div>
+          <div class="phone details">
+            <i class="fas fa-phone-alt"></i>
+            <div class="topic">Phone</div>
+            <div class="text-one"><a href="tel:+9779842333339"> 9842333339</a></div>
+            <div class="text-two"><a href="tel:+9779807095451">9807095451</a></div>
+          </div>
+          <div class="email details">
+            <i class="fas fa-envelope"></i>
+            <div class="topic">Email</div>
+            <div class="text-one"><a href="mailto:edenburghcollege@gmail.com">edenburghcollege@gmail.com</a></div>
+            <div class="text-two"><a href="mailto:edenburghcollege53@gmail.com">edenburghcollege53@gmail.com</a></div>
+          </div>
+        </div>
+        <div class="right-side">
+          <div class="topic-text"> Send Message To Edenburgh College</div>
+          <p class="topic-para">If you have any types of quries, you can send message from
+            here.</p>
+
+
+          <!-- this is actual form -->
+          <form action="https://formspree.io/f/mvgprppb" method="POST">
+            <div class="input-box">
+              <input type="text" name="name" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <input type="email" name="email" placeholder="Enter your email for response" required>
+            </div>
+            <div class="input-box message-box">
+              <textarea name="message" placeholder="Write your message to Edenburgh"></textarea>
+            </div>
+            <div class="button">
+              <input type="submit" value="Send Now">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- footer layout -->
+  <footer id="footer-section">
+
+    <div class="footer-list" id="college-intro">
+      <img src="/img/edenburgh-logo.png" alt="Edenburgh college Logo">
+      <p class="clg-name">Edenburgh College</p>
+      <p class="clg-para">
+        TU Affiliated. <br>
+        Biratnagar-9, Near Bus Park.
+      </p>
+    </div>
+    <div class="footer-list">
+      <h2>Quick Links</h2>
+      <a href="/important-link/gallery.html">Gallery</a><br>
+      <a href="" id="about-us">About Us</a><br>
+
+      <!-- social media link -->
+      <h3 class="social-link-head">Follow Us ON</h3>
+      <hr class="social-hr">
+      <ul class="wrapper" id="socialMediaLinks">
+        <li class="icon facebook">
+          <span><i class="fab fa-facebook-f"></i></span>
+        </li>
+        <li class="icon twitter">
+          <span><i class="fab fa-twitter"></i></span>
+        </li>
+        <li class="icon youtube">
+          <span><i class="fab fa-youtube"></i></span>
+        </li>
+        <li class="icon instagram">
+          <span><i class="fab fa-instagram"></i></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-list">
+      <h2>Important Links</h2>
+      <a href="">Infrastructure</a><br>
+      <a class="career" href="/quick-link/career.html">Career <sup> new </sup></a><br>
+      <a href="/important-link/feedback.html">feedback</a><br>
+    </div>
+
+    <div class="footer-list">
+      <h2>Legals</h2>
+      <a href="/legals/disclaimer.html">Disclaimer</a><br>
+      <a href="/legals/terms-of-use.html">Terms of Use</a><br>
+      <a href="/legals/privacy-policy.html">Privacy Policy</a><br>
+    </div>
+  </footer>
+
+
+ <!-- developer section -->
+ <div class="developer">
+
+  <p class="devp" id="devp1"> &copy <span>Edenburgh college</span>. All Right Reserved 2024</p>
+  <p class="devp" id="devp2">developed by <a href="https://www.facebook.com/saajnaa.mern" target="_blank">Sajan Rishidev</a></p>
+</div>
+
+
+<!-- whatsapp-section -->
+
+<a class="whatssapp" href="https://wa.me/+9779802722148" target="_blank"> </a>
+</main>
+
+
+
+  <!-- Bootstrap js -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js
+ "></script>
+
+ <!-- vanila js section-->
+ <script src="script.js"></script>
+
+  <!-- Nepali Time Js -->
+  <script src="nepali-time.js"></script>
+</body>
+
+</html>
