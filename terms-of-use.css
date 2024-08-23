@@ -1,0 +1,63 @@
+.terms-of-use{
+
+
+padding: 0px 50px;
+
+
+}
+
+
+h1{
+
+text-align: center;
+font-family: sans-serif;
+margin-bottom: 0px;
+color: rgb(7, 7, 39);
+
+}
+
+hr{
+
+margin: auto;
+width: 50%;
+rotate: -1deg;
+
+}
+
+
+
+p{
+
+font-size: 17px;
+line-height: 25px;
+margin: 20px 20px;
+text-align: center;
+font-family: sans-serif;
+color: rgb(5, 8, 20);
+text-align: left;
+
+}
+
+
+h2{
+
+
+font-family: sans-serif;
+font-size: 18px;
+
+}
+
+span{
+
+
+color: red;
+
+}
+
+a{
+font-family: sans-serif;
+text-decoration: none;
+
+
+}
+

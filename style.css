@@ -45,7 +45,7 @@ body {
     width: 100%;
     margin-top: 5px;
     padding: 4px;
-    background-color: rgb(193, 245, 179);
+     
 }
 
 .notice h3 {
@@ -66,7 +66,7 @@ body {
     border: 1px solid rgb(216, 210, 225);
     border-radius: 33px;
     font-size: 14px;
-    color: rgb(35, 109, 12);
+    color: rgb(193, 35, 10);
     padding-left: 8px;
     padding-right: 8px;
     display: inline;
