@@ -956,7 +956,7 @@ body {
     bottom: 37px;
     right: 10px;
     cursor: pointer;
-    background: url("img/whatsapp-icon.png");
+    background: url("whatsapp-icon.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 0.1px;
