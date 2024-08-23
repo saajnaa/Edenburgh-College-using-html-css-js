@@ -1,0 +1,43 @@
+.career{
+
+    text-align: center;
+    padding: 0px 100px 0px 100px;
+    
+    
+    }
+    
+    .career h2{
+    
+    font-family: sans-serif;
+    color: green;
+    
+    
+    
+    }
+    
+    
+    a{
+    
+    text-decoration: none;
+    position: relative;
+    left: 10px;
+    
+    
+    }
+    
+    
+    .career img{
+    
+    
+    height: 100px;
+    width: 100px;
+    
+    }
+     .career p{
+    font-family: sans-serif;
+        line-height: 25px;
+        letter-spacing: .9px;
+        text-align: justify;
+    
+    
+    }

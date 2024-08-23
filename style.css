@@ -12,6 +12,11 @@ body {
 
 }
 
+@font-face {
+    font-family: devnagri;
+    src: url("TiroDevanagariHindi-Regular.ttf");
+}
+
 
 /* animation for our program section button */
 @keyframes gradient {
@@ -80,9 +85,9 @@ body {
 
 #slidepara {
     font-family: devnagri;
-    margin-top: 3px;
+    margin-top: 1px;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 200px;
 }
 
 #slidepara span {
