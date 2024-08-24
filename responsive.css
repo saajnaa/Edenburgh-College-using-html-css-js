@@ -10,6 +10,32 @@
 
     }
 
+    #container-for-c{
+
+
+        display: flex;
+        flex-wrap: wrap;
+ margin-top: -2px;
+
+    } 
+
+#container-for-cs{
+
+
+margin: 10px auto;
+
+
+}
+
+
+#container-for-cs2{
+
+
+    margin: 10px auto;
+    
+    
+    }
+    
 
 }
 
