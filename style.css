@@ -39,6 +39,14 @@ body {
     color: rgb(54, 194, 54);
 }
 
+#navbar-brand{
+
+
+font-weight: bold;
+
+
+}
+
 
 /* styling slidepara that is marqueee tag on top */
 .notice {
