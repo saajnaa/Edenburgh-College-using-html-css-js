@@ -203,11 +203,10 @@ text-decoration: none;
 
 .contact-list {
     margin-bottom: 20px;
-    padding: 10px 0px;
+    padding: 10px 10px;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 10px;
-    padding-right: 10px;
+     
 }
 
 .facebook-page {
@@ -244,6 +243,17 @@ text-decoration: none;
 }
 
 
+.map-page p {
+
+    width: 502px;
+    text-align: center;
+    font-size: 23px;
+    font-weight: bold;
+    color: #db1414;
+    margin-bottom: 3px;
+    background-color: whitesmoke;
+
+}
 
 
 

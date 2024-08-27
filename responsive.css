@@ -113,29 +113,31 @@ margin: 10px auto;
 @media screen and (max-width:550px)  {
 
 
+.map-page{
 
-    .map-page {
+border: 1px solid salmon;
+ padding: 0 70px;
 
-        
-        width: 320px !important;
-        height: 300px !important;
-        margin-top: 20px;
-        margin: 10px auto !important;
-        border-radius: 3px;
-        
-    }
+}
 
+.map-page p{
 
-    .map-page iframe {
-
-        width: 302px !important;
-        height: 300px !important;
-        margin: 10px auto !important;
+     width: 300px;
+    
 
 
     }
 
+.map-page iframe{
+
+    
+
+    height: 340px;
+    width: 300px;
+    margin: 0px auto;
 
 
+    
+    }
 
 }
