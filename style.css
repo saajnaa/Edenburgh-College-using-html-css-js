@@ -39,10 +39,10 @@ body {
     color: rgb(54, 194, 54);
 }
 
-#navbar-brand{
+#navbar-brand {
 
 
-font-weight: bold;
+    font-weight: bold;
 
 
 }
@@ -53,7 +53,7 @@ font-weight: bold;
     width: 100%;
     margin-top: 59px;
     padding: 4px;
-     
+
 }
 
 .notice h3 {
@@ -117,7 +117,7 @@ font-weight: bold;
     font-size: 23px;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 5px;
+    margin-top: 15px;
     margin-bottom: 5px;
     background: #06c0dc4d;
     border-radius: 4px;
@@ -125,21 +125,21 @@ font-weight: bold;
 }
 
 
-#learn-more{
+#learn-more {
 
 
-text-decoration: none;
+    text-decoration: none;
 
 
 }
- 
 
-#learn-more:hover{
+
+#learn-more:hover {
 
 
     color: #e7e4f1;
-    
-    }
+
+}
 
 
 
@@ -205,8 +205,10 @@ text-decoration: none;
     margin-bottom: 20px;
     padding: 10px 10px;
     display: flex;
-    flex-wrap: wrap;
-     
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .facebook-page {
@@ -272,7 +274,7 @@ text-decoration: none;
 }
 
 .container {
-    width: 85%;
+    width: 100%;
     background: #fff;
     border-radius: 6px;
     padding: 20px 60px 30px 40px;
@@ -363,7 +365,7 @@ text-decoration: none;
 .topic-para {
 
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 19px;
     margin-top: 5px;
 
 
@@ -378,7 +380,7 @@ text-decoration: none;
 .right-side .input-box input,
 .right-side .input-box textarea {
     height: 100%;
-    width: 100%;
+    width: 90%;
     border: none;
     outline: none;
     font-size: 16px;
@@ -386,6 +388,7 @@ text-decoration: none;
     border-radius: 6px;
     padding: 0 15px;
     resize: none;
+
 }
 
 .right-side .message-box {
@@ -426,12 +429,12 @@ text-decoration: none;
 
 @media (max-width: 950px) {
     .container {
-        width: 90%;
+        width: 100%;
         padding: 30px 40px 40px 35px;
     }
 
     .container .content .right-side {
-        width: 75%;
+        width: 100%;
         margin-left: 55px;
     }
 }
@@ -458,9 +461,14 @@ text-decoration: none;
         display: none;
     }
 
+     
+    
+     
+
     .container .content .right-side {
-        width: 100%;
+       width: 100%;
         margin-left: 0;
+
     }
 }
 
@@ -725,7 +733,6 @@ text-decoration: none;
     margin-top: 5px;
     display: inline-block;
     color: #080120;
-    width: 70%;
     text-decoration: none;
 
 }
@@ -788,14 +795,14 @@ text-decoration: none;
 #devp2 {
 
     margin-top: -10px;
-    
+
 }
 
 .devp a {
 
     font-family: sans-serif;
     font-size: 16px;
-    color:  rgb(205, 211, 13);
+    color: rgb(205, 211, 13);
     /* color: rgb(16, 15, 15); */
     text-decoration: none;
     font-weight: bold;

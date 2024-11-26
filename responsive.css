@@ -1,46 +1,66 @@
+@media screen and (max-width:768px) {
+
+    /* get in touch code respnsive */
+    .facebook-page {
 
 
+        display: none;
 
-@media screen and (max-width:768px)  {
-    
+    }
 
-    .footer-list{
+    .whatssapp {
 
+
+        height: 75px;
+        width: 75px;
+
+    }
+
+    /* footer code responsive */
+
+    #college-intro {
+
+        width: 90%;
+
+    }
+
+    .footer-list {
+        width: 90%;
         margin: 10px auto;
 
     }
 
-    #container-for-c{
+    #container-for-c {
 
 
         display: flex;
         flex-wrap: wrap;
- margin-top: -2px;
+        margin-top: -2px;
 
-    } 
-
-#container-for-cs{
-
-
-margin: 10px auto;
-
-
-}
-
-
-#container-for-cs2{
-
-
-    margin: 10px auto;
-    
-    
     }
-    
+
+    #container-for-cs {
+
+
+        margin: 10px auto;
+
+
+    }
+
+
+    #container-for-cs2 {
+
+
+        margin: 10px auto;
+
+
+    }
+
 
 }
 
 
-@media screen and (max-width:970px)  {
+@media screen and (max-width:970px) {
 
 
     .courses-list {
@@ -51,11 +71,11 @@ margin: 10px auto;
         padding-bottom: 20px;
         /* padding-left: 50px;
         padding-right: 50px; */
-        
+
         margin: 10px auto;
     }
- 
- .bbs {
+
+    .bbs {
         width: 310px;
         height: auto;
         margin: 10px auto !important;
@@ -63,9 +83,9 @@ margin: 10px auto;
         border-radius: 8px;
         font-size: 18px;
         box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-        
+
     }
-    
+
 
     .b-ed {
 
@@ -82,18 +102,9 @@ margin: 10px auto;
 
 }
 
-@media screen and (max-width:1000px)  {
+@media screen and (max-width:1000px) {
 
 
-    .facebook-page {
-
-
-        width: 320px;
-        margin-top: 20px;
-        margin: 10px auto !important;
-        border-radius: 3px;
-    
-    }
 
 
     .map-page {
@@ -110,34 +121,34 @@ margin: 10px auto;
 }
 
 
-@media screen and (max-width:550px)  {
+@media screen and (max-width:550px) {
 
 
-.map-page{
+    .map-page {
 
-border: 1px solid salmon;
- padding: 0 70px;
+        border: 1px solid salmon;
+        padding: 0 70px;
 
-}
+    }
 
-.map-page p{
+    .map-page p {
 
-     width: 300px;
-    
+        width: 300px;
+
 
 
     }
 
-.map-page iframe{
-
-    
-
-    height: 340px;
-    width: 300px;
-    margin: 0px auto;
+    .map-page iframe {
 
 
-    
+
+        height: 340px;
+        width: 300px;
+        margin: 0px auto;
+
+
+
     }
 
 }
